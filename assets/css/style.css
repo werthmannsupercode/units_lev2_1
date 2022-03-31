@@ -1,0 +1,49 @@
+html {
+    font-size: 10px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+ul {
+    padding-inline-start: 1.2em;
+    list-style: none;
+}
+
+li {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+section {
+    border: 0.2rem solid #333;
+}
+
+section>ul {
+    font-size: 2rem;
+}
+
+.dog::before {
+    content: '🐶';
+}
+
+.cats::before {
+    content: '🐱';
+}
+
+.parrots::before {
+    content: '🦜';
+}
+
+.snakes::before {
+    content: '🐍';
+}
+
+.lizzards::before {
+    content: '🦎';
+}
