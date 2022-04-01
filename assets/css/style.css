@@ -11,8 +11,8 @@ p {
 }
 
 ul {
-    padding-inline-start: 1.2em;
     list-style: none;
+    padding-inline-start: 1.2rem;
 }
 
 li {
@@ -46,4 +46,9 @@ section>ul {
 
 .lizzards::before {
     content: '🦎';
+}
+
+.Einrückung {
+    padding: 0;
+    margin: 0;
 }
